@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Basco Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar d-none d-xl-block w-100">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Find A
+                        Location</a>
+                    <a href="#" class="text-muted me-4"><i
+                            class="fas fa-phone-alt text-secondary me-2"></i>+01234567890</a>
+                    <a href="#" class="text-muted me-0"><i
+                            class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="#" class="text-muted me-3"><i class="fas fa-clock text-secondary me-2"></i>Mon - Sat 8:00 -
+                        17:30, Sunday - CLOSED</a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-primary btn-square border border-white me-3"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light py-1 px-4">
+            <div class="logo-content ms-lg-2">
+                <div class="logo-width-1">
+                    <a href="index.html"><img src="img/logo-white.png" alt="logo"></a>
+                    <div class="text-container">
+                        <h3 class="text-uppercase">Basco</h3>
+                        <h4 class="text-uppercase">Safety and Security</h4>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle text-dark"
+                            data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-lg-0">
+                            <a href="service.html" class="dropdown-item">Services</a>
+                            <a href="service-details.html" class="dropdown-item">Service Details</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown active">
+                        <a href="#" class="nav-link dropdown-toggle text-dark active"
+                            data-bs-toggle="dropdown">Projects</a>
+                        <div class="dropdown-menu m-lg-0">
+                            <a href="project1.html" class="dropdown-item">Project 1</a>
+                            <a href="project2.html" class="dropdown-item">Project 2</a>
+                            <a href="project-details.html" class="dropdown-item active">Project Details</a>
+                        </div>
+                    </div>
+
+                    <a href="gallery.html" class="nav-item nav-link">Certifactions</a>
+                    <a href="partner.html" class="nav-item nav-link">Partners</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-lg-0">
+                            <a href="login.html" class="dropdown-item">login Page</a>
+                            <a href="register.html" class="dropdown-item">Register Page</a>
+                            <a href="forgot-password.html" class="dropdown-item">Forgot Password</a>
+                            <a href="reset-password.html" class="dropdown-item">Reset Password</a>
+                            <a href="404.html" class="dropdown-item">404 Error</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
+                    <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
+                            class="fas fa-search"></i></button>
+                    <a href="login.html" class="btn btn-secondary py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">
+                        <i class="fas fa-sign-in-alt text-white"></i> Log In</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text text-white p-3"><i
+                                class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Project Details</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="project1.html">Projects</a></li>
+                <li class="breadcrumb-item active text-secondary">Project Details</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Project Details Start-->
+    <div class="single">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="single-content wow fadeInUp">
+                        <img src="img/blog-1.jpg" />
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie, lorem eu eleifend
+                            bibendum, augue purus mollis sapien, non rhoncus eros leo in nunc. Donec a nulla vel turpis
+                            consectetur tempor ac vel justo. In hac habitasse platea dictumst. Cras nec sollicitudin
+                            eros. Nunc eu enim non turpis sagittis rhoncus consectetur id augue. Mauris dignissim neque
+                            felis. Phasellus mollis mi a pharetra cursus. Maecenas vulputate augue placerat lacus
+                            mattis, nec ornare risus sollicitudin.
+                        </p>
+                        <p>
+                            Mauris eu pulvinar tellus, eu luctus nisl. Pellentesque suscipit mi eu varius pulvinar.
+                            Aenean vulputate, massa eget elementum finibus, ipsum arcu commodo est, ut mattis eros orci
+                            ac risus. Suspendisse ornare, massa in feugiat facilisis, eros nisl auctor lacus, laoreet
+                            tempus elit dolor eu lorem. Nunc a arcu suscipit, suscipit quam quis, semper augue.
+                        </p>
+                        <p>
+                            Quisque arcu nulla, convallis nec orci vel, suscipit elementum odio. Curabitur volutpat
+                            velit non diam tincidunt sodales. Nullam sapien libero, bibendum nec viverra in, iaculis ut
+                            eros.
+                        </p>
+                        <h3>The Challenge in Work</h3>
+                        <p>
+                            Vestibulum sit amet ullamcorper sem. Integer hendrerit elit eget purus sodales maximus.
+                            Quisque ac nulla arcu. Morbi venenatis arcu ac arcu cursus pharetra. Morbi sit amet viverra
+                            augue, ac ultricies libero. Praesent elementum lectus mi, eu elementum urna venenatis sed.
+                            Donec auctor purus ut mattis feugiat. Integer mi erat, consectetur sed tincidunt vitae,
+                            sagittis elementum libero. Vivamus a mauris consequat, hendrerit lectus in, fermentum
+                            libero. Integer mattis bibendum neque et porttitor.
+                        </p>
+                        <ul class="list-group">
+                            <li
+                                class="list-group-item d-flex align-items-center border-0  p-3 mb-2 rounded-3 shadow-sm">
+                                <i class="fas fa-check text-secondary me-3"></i>
+                                <small class="text-muted">Mauris quis arcu finibus</small>
+                            </li>
+                            <li
+                                class="list-group-item d-flex align-items-center border-0  p-3 mb-2 rounded-3 shadow-sm">
+                                <i class="fas fa-check text-secondary me-3"></i>
+                                <small class="text-muted">Mauris quis arcu finibus</small>
+                            </li>
+                            <li class="list-group-item d-flex align-items-center border-0 p-3 mb-2 rounded-3 shadow-sm">
+                                <i class="fas fa-check text-secondary me-3"></i>
+                                <small class="text-muted">Mauris quis arcu finibus</small>
+                            </li>
+                            <li
+                                class="list-group-item d-flex align-items-center border-0  p-3 mb-2 rounded-3 shadow-sm">
+                                <i class="fas fa-check text-secondary me-3"></i>
+                                <small class="text-muted">Mauris quis arcu finibus</small>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="sidebar card shadow-lg border-0 rounded-3 mb-3 wow animate__animated animate__fadeInUp"
+                        data-wow-delay="0.2s">
+                        <div class="sidebar-widget card-body p-4">
+                            <h2 class="widget-title h4 mb-4 text-primary">Project Details</h2>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><strong>Client:</strong> <span class="text-muted">ASDFG</span></li>
+                                <li class="mb-3"><strong>Location:</strong> <span class="text-muted">New York</span>
+                                </li>
+                                <li class="mb-3"><strong>Status:</strong> <span class="text-muted">Complete</span></li>
+                                <li class="mb-3"><strong>Team:</strong> <span class="text-muted">John, Jane, Mark</span>
+                                </li>
+                                <li class="mb-3"><strong>Year Completed:</strong> <span class="text-muted">2024</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="sidebar card shadow-lg border-0 rounded-3 wow animate__animated animate__fadeInUp"
+                        data-wow-delay="0.4s">
+                        <div class="sidebar-widget card-body p-4">
+                            <h2 class="widget-title h4 mb-4 text-primary">Contact Us</h2>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <strong>Email:</strong> <span class="text-muted">contact@company.com</span>
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Phone:</strong> <span class="text-muted">+1 234 567 890</span>
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Address:</strong> <span class="text-muted">123 Main St, New York, NY</span>
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Working Hours:</strong> <span class="text-muted">Mon - Fri, 9:00 AM - 6:00
+                                        PM</span>
+                                </li>
+                                <li class="mb-3">
+                                    <strong>Support:</strong> <span class="text-muted">support@company.com</span>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="contact.html"
+                                        class="btn btn-lg btn-secondary shadow-lg text-white w-100">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Project Details End-->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Newsletter</h4>
+                            <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                            <div class="position-relative mx-auto">
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Enter your email">
+                                <button type="button"
+                                    class="btn btn-secondary position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Explore</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Projects</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Our Services</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> General Construction</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Property Maintenance</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Project Managment</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Virtual Design & Build</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Residential Construction</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Preconstruction</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                        <div class="footer-btn d-flex align-items-center">
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-0" href=""><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-1">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <div class="logo-content">
+                        <div class="logo-width-1">
+                            <a href="index.html"><img src="img/logo-black.png" alt="logo"></a>
+                            <div class="text-container">
+                                <h3 class="text-uppercase text-white">Basco</h3>
+                                <h4 class="text-uppercase">Safety and Security</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    Designed By <a class="border-bottom text-white" href="#">Asmaa Othman</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
